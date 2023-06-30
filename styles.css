@@ -1,0 +1,386 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'League Spartan', sans-serif;
+}
+
+.main{
+    width: 100%;
+    height: 100vh;
+    align-items: center;
+    background:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    row-gap: 20px;
+
+    background-image: 
+    url('./images/bg-pattern-top-desktop.svg'),
+    url('./images/bg-pattern-bottom-desktop.svg');
+    background-position: -10% 0%, 200% -70%;   
+    background-repeat: no-repeat;
+
+}
+
+.container1{
+    width: 900px;
+    height: 250px;
+    background-color: transparent;
+    display: flex;
+    flex-direction: row;
+    column-gap: 120px;
+    
+}
+
+.c1-b1{
+    width: 300px;
+    margin-top: 20px;
+}
+
+
+.c1-h1{
+    margin-right:60px;
+    color:  hsl(300, 43%, 22%);
+}
+
+.c1-p1{
+    margin-top: 20px;
+    padding: 0;
+    color:hsl(303, 10%, 53%);
+}
+
+.c1-b2{
+    width: 500px;
+    background: transparent;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    margin-top: 20px;
+}
+
+.star1{
+    width: 400px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    column-gap: 10px;
+    background: hsl(303, 10%, 53%);
+    padding-left: 10px;
+    border-radius: 0.5rem;
+}
+
+.s1-h3{
+    color: hsl(300, 43%, 22%);
+}
+
+.star2{
+    width: 400px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    column-gap: 10px;
+    background: hsl(303, 10%, 53%);
+    padding-left: 10px;
+    border-radius: 0.5rem;
+    margin-left: 50px;
+}
+
+.s2-h3{
+    color: hsl(300, 43%, 22%);
+}
+
+.star3{
+    width: 400px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    column-gap: 10px;
+    background: hsl(303, 10%, 53%);
+    padding-left: 10px;
+    border-radius: 0.5rem;
+    margin-left: 100px;
+}
+
+.s3-h3{
+    color: hsl(300, 43%, 22%);
+}
+
+
+.container2{
+    width: 900px;
+    height: 300px;
+    background-color: transparent;
+    display: flex;
+    flex-direction: row;
+    column-gap: 22px;
+    border-radius: 1rem;
+}
+
+/* card 1 */
+
+.card1{
+    display: flex;
+    flex-direction:column;
+    width: 300px;
+    height: 230px;
+    background:  hsl(300, 43%, 22%);
+    column-gap: 20px;
+    border-radius: 1rem;
+    
+}
+
+.coment1{
+    display: flex;
+    flex-direction: row;
+    background:  hsl(300, 43%, 22%);
+    column-gap: 20px;
+    padding: 5%;
+    border-radius: 1rem;
+}
+
+.img1{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: yellow;
+}
+
+.img1-1{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: url(./images/image-colton.jpg);
+    background-position: center center;
+    background-size: cover;
+}
+
+.name1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    row-gap: 5px;
+}
+
+.name1-1{
+    color: white;
+}
+
+.name1-2{
+    color: hsl(333, 80%, 67%);
+}
+
+/* end card1 */
+
+/* card 2 */
+
+.card2{
+    display: flex;
+    flex-direction:column;
+    width: 300px;
+    height: 230px;
+    background:  hsl(300, 43%, 22%);
+    column-gap: 20px;
+    border-radius: 1rem;
+    margin-top: 25px;
+}
+
+.coment2{
+    display: flex;
+    flex-direction: row;
+    background:  hsl(300, 43%, 22%);
+    column-gap: 20px;
+    padding: 5%;
+    border-radius: 1rem;
+}
+
+.img2{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: yellow;
+}
+
+.img2-1{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: url(./images/image-anne.jpg);
+    background-position: center center;
+    background-size: cover;
+}
+
+.name2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    row-gap: 5px;
+}
+
+.name2-1{
+    color: white;
+}
+
+.name2-2{
+    color: hsl(333, 80%, 67%);
+}
+
+
+/* end card2 */
+
+/* card 3 */
+
+.card3{
+    display: flex;
+    flex-direction:column;
+    width: 300px;
+    height: 230px;
+    background: hsl(300, 43%, 22%);
+    column-gap: 20px;
+    border-radius: 1rem;
+    margin-top: 50px;
+}
+
+.coment3{
+    display: flex;
+    flex-direction: row;
+    background: hsl(300, 43%, 22%);
+    column-gap: 20px;
+    padding: 5%;
+    border-radius: 1rem;
+}
+
+.img3{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: yellow;
+}
+
+.img3-1{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: url(./images/image-irene.jpg);
+    background-position: center center;
+    background-size: cover;
+}
+
+.name3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    row-gap: 5px;
+}
+
+.name3-1{
+    color: white;
+}
+
+.name3-2{
+    color: hsl(333, 80%, 67%);
+}
+
+
+/* end card3 */
+
+p{
+    padding: 10%;
+    color: white;
+}
+
+/*Responsive*/
+
+@media(max-width:600px){
+
+    .main{
+        width: 400px;
+        height: 1400px;
+        align-items: center;
+        background:white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        flex-direction: column;
+        row-gap: 170px;
+    
+        background-image: 
+        url('./images/bg-pattern-top-mobile.svg'),
+        url('./images/bg-pattern-bottom-mobile.svg');
+        background-position: -10% 0%, 10%  50%;   
+        background-repeat: no-repeat;
+
+        padding-left:130%;
+    
+    }
+
+    
+    .container1{
+        flex-direction: column;   
+    }
+
+    .c1-h1{
+        margin-right:0px;
+        color:  hsl(300, 43%, 22%);
+    }
+
+    .star1{
+        width: 300px;
+        height: 50px;
+        flex-direction: column;
+        row-gap: 4px;
+        padding-top: 5px;
+    }
+
+    .star2{
+        width: 300px;
+        height: 50px;
+        flex-direction: column;
+        margin-left: 0px;
+        row-gap: 4px;
+        padding-top: 5px;
+    }
+
+    .star3{
+        width: 300px;
+        height: 50px;
+        flex-direction: column;
+        margin-left: 0px;
+        row-gap: 4px;
+        padding-top: 5px;
+    }
+
+    .container2{
+        flex-direction: column;
+        column-gap: 0px;  
+        row-gap: 20px; 
+    }
+
+    .card2{
+        margin-top: 0px;
+    }
+
+    .card3{
+        margin-top: 0px;
+    }
+
+    p{
+        padding: 10% 5%;
+    }
+
+    .attribution{
+        display: flex;
+        flex-direction: column;
+        margin-right: 600px;
+        margin-top: 200px;
+    }
+}
+
